@@ -6,10 +6,10 @@ public class PrePostIncrement {
         int b = 7;
         int c = 12;
         int d = 15;
-        a++;
-        c++;
+        b++;
+        d++;
         // use post-increment operator in the mathematical expression  
-        int x =  a + b +   c   + d;
+        int x = a + b + c + d;
         x--;
         System.out.println("Expected x is 40, x = " + x);
         // print the updated value of a, b, c, and d  
