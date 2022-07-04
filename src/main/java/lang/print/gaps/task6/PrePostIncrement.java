@@ -8,7 +8,6 @@ public class PrePostIncrement {
         int d = 15;
         b++;
         d++;
-        a--;
         // use post-increment operator in the mathematical expression  
         int x = a + b + c + d;
         System.out.println("Expected x is 40, x = " + x);
