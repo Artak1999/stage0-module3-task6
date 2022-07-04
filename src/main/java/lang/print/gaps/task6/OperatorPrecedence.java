@@ -4,8 +4,9 @@ public class OperatorPrecedence {
     public static void main(String[] args) {
         int first = 1;
         int second = 2;
+        first++;
         int eight = 3 + first * second;
-        eight += 3;
+        eight++;
         System.out.println(eight);//eight is expected to be 8
         boolean firstBool = false;
         boolean secondBool = false;
